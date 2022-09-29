@@ -100,3 +100,12 @@
     text-align: center;
     margin-top: 15px;
 }
+.social-media-list {
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+    justify-content: center;
+}
+.fa-solid, .fa-brands {
+    color: var(--blue-green);
+}
