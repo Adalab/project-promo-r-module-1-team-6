@@ -5,6 +5,7 @@
     --black: #000000;
     --cool-grey: #b8b8b9;
 }
+
 .header{
 
 }
@@ -35,3 +36,24 @@
     text-align: center;
     padding: 30px;
 }
+
+.hero {
+    background-image: url(../images/expediav2-420251-bac80c-813390.jpg);
+    background-position:center;
+    height: 200px;
+    width: 100vw;
+
+   
+}
+
+
+.texto-hero{
+    background-color: var(--white);
+    width: 204px;
+    position: relative;
+    padding: 2px;
+    top: 184px;
+    left: 22px; 
+    font-weight: bold;
+    text-align: center;
+  }
