@@ -37,6 +37,7 @@
     padding: 30px;
 }
 
+/* HERO */
 .hero {
     background-image: url(../images/expediav2-420251-bac80c-813390.jpg);
     background-position:center;
@@ -45,7 +46,6 @@
 
    
 }
-
 
 .texto-hero{
     background-color: var(--white);
@@ -57,3 +57,45 @@
     font-weight: bold;
     text-align: center;
   }
+
+  /* FOOTER*/
+
+  .footer{
+    text-align: center;
+ 
+  }
+
+ .caja{
+    position: relative;
+    top:3500px;
+
+ }
+  .nombre-final{
+    color: var(--cool-grey);
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+   
+    
+  }
+
+  .enlaces-final{
+    color: #54585a;
+    margin: 5px;
+    
+  }
+  
+  .enlace1 ,.enlace2 , .enlace3 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+  }
+
+  .logo{
+   margin-top:10px;
+   width:115.9px ;
+   height: 45px;
+  }
+
