@@ -36,7 +36,27 @@
     text-align: center;
     padding: 30px;
 }
-
+/* Fortalezas y debilidades*/
+.strengths-weaknesses{
+    background: var(--cool-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.caracteristicas{
+    color: var(--blue-green);
+    font-size: 22px;
+    text-align: center
+    
+   
+    
+}
+.parrafo{
+    text-align: center;
+    
+   
+}
 /* HERO */
 .hero {
     background-image: url(../images/expediav2-420251-bac80c-813390.jpg);
