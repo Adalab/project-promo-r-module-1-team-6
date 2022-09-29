@@ -5,7 +5,33 @@
     --black: #000000;
     --cool-grey: #b8b8b9;
 }
-header {
-    font-family: Roboto;
-    
+.header{
+
+}
+.h1{
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  opacity: 0.95;
+  background-color: var(--blue-green);
+  color: var(--white);
+}
+.nav-header{
+    width: 100%;
+    height: 45px;
+    opacity: 0.9;
+    background-color: var(--aqua);
+    color: var(--white);
+}
+.ul-nav-cabecera{
+    display: flex;
+    color: var(--white);
+    flex-direction: row;  
+}
+.link{
+    padding: 20px;
+}
+.equipo{
+    text-align: center;
+    padding: 30px;
 }
