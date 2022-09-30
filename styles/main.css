@@ -23,14 +23,22 @@
     opacity: 0.9;
     background-color: var(--aqua);
     color: var(--white);
+    font-size: 15px;
+    font-family: 'Rubik';
+    
 }
 .ul-nav-cabecera{
     display: flex;
     color: var(--white);
-    flex-direction: row;  
+    flex-direction: row; 
+    gap: 10px;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 45px;
 }
 .link{
-    padding: 20px;
+   /* padding: 20px;*/
 }
 .equipo{
     text-align: center;
@@ -103,7 +111,6 @@
 
 .whoiswho {
     background-color: var(--white);
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
