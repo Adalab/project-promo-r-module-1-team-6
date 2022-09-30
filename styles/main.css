@@ -7,7 +7,7 @@
 }
 
 .header{
-
+    line-height: 20px;
 }
 .h1{
   width: 100%;
@@ -16,6 +16,12 @@
   opacity: 0.95;
   background-color: var(--blue-green);
   color: var(--white);
+  font-family: 'Rubik';
+  line-height: 60px;
+  font-size: 20px;
+ 
+
+
 }
 .nav-header{
     width: 100%;
@@ -23,9 +29,9 @@
     opacity: 0.9;
     background-color: var(--aqua);
     color: var(--white);
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Rubik';
-    
+    line-height: 20px;
 }
 .ul-nav-cabecera{
     display: flex;
