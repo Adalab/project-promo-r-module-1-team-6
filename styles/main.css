@@ -37,13 +37,29 @@
     padding-right: 10px;
     line-height: 45px;
 }
-.link{
-   /* padding: 20px;*/
-}
+
 .equipo{
     text-align: center;
     padding: 30px;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.88;
+    text-align: center;
+    color: var(--aqua);
+    margin-top: 60px;
 }
+.team p {
+    font-family: 'Open-sans';
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: #54585a;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* Fortalezas y debilidades*/
 .strengths-weaknesses{
     background: var(--cool-grey);
