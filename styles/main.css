@@ -43,9 +43,12 @@
     padding-right: 10px;
     line-height: 45px;
 }
-
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .equipo{
-    text-align: center;
     padding: 30px;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -64,6 +67,13 @@
     margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.white-square {
+    width: 30px;
+    height: 30px;
+    transform: translate(0, 50%) rotate(45deg);
+    z-index: 1;
+    background-color: var(--white);
 }
 
 /* Fortalezas y debilidades*/
@@ -174,10 +184,11 @@
 .social-media-list {
     display: flex;
     padding: 30px;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
+    color: #54585a;
 }
-.fa-solid, .fa-brands {
+.fa-solid, .fa-brands, .fa-regular {
     color: var(--blue-green);
 }
   /* FOOTER*/
