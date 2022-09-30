@@ -180,7 +180,7 @@
     justify-content: center;
     color: #54585a;
 }
-.fa-solid, .fa-brands {
+.fa-solid, .fa-brands, .fa-regular {
     color: var(--blue-green);
 }
   /* FOOTER*/
