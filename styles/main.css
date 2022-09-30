@@ -173,8 +173,9 @@
 .social-media-list {
     display: flex;
     padding: 30px;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
+    color: #54585a;
 }
 .fa-solid, .fa-brands {
     color: var(--blue-green);
