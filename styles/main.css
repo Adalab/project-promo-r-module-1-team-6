@@ -77,20 +77,25 @@
 }
 
 /* Fortalezas y debilidades*/
+
 .strengths-weaknesses{
     background: var(--cool-grey);
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    font-family: 'Open-sans';
+    width: 100%;
+    line-height: 35px;
 }
 .caracteristicas{
     color: var(--blue-green);
     font-size: 22px;
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
     
-   
-    
+         
 }
 .parrafo{
     text-align: center;
