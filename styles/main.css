@@ -4,6 +4,7 @@
     --white: #ffffff;
     --black: #000000;
     --cool-grey: #b8b8b9;
+    --gun-metal: #54585a;
 }
 .enlace-nav{
     text-decoration: none;
@@ -91,6 +92,10 @@
     font-family: 'Open-sans';
     width: 100%;
     line-height: 35px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .caracteristicas{
     color: var(--blue-green);
@@ -103,8 +108,9 @@
 }
 .parrafo{
     text-align: center;
-    
-   
+    color: var(--gun-metal);
+    font-size: 16px;
+    line-height: 24px;  
 }
 /* HERO */
 .hero {
