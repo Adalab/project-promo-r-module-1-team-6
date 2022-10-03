@@ -84,7 +84,7 @@
 /* Fortalezas y debilidades*/
 
 .strengths-weaknesses{
-    background: var(--cool-grey);
+    background: rgba(84, 88, 90, 0.2);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
