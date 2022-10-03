@@ -5,6 +5,11 @@
     --black: #000000;
     --cool-grey: #b8b8b9;
 }
+.enlace-nav{
+    text-decoration: none;
+    box-shadow: none;
+    color: var(--white);
+}
 .header{
     line-height: 20px;
     position: absolute;
