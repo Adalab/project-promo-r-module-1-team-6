@@ -5,7 +5,11 @@
     --black: #000000;
     --cool-grey: #b8b8b9;
 }
-
+.enlace-nav{
+    text-decoration: none;
+    box-shadow: none;
+    color: var(--white);
+}
 .header{
     line-height: 20px;
     position: absolute;
@@ -21,9 +25,6 @@
   font-family: 'Rubik';
   line-height: 60px;
   font-size: 20px;
- 
-
-
 }
 .nav-header{
     width: 100%;
@@ -106,16 +107,12 @@
 }
 /* HERO */
 .hero {
-    background-image: url(../images/expediav2-420251-bac80c-813390.jpg);
+    background-image: url(../images/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea.jpg);
     background-position:center;
+    background-size: cover;
     height: 200px;
     width: 100vw;
-    text-align: center;
-   
-   
-    
-
-   
+    text-align: center; 
 }
 .Caja-hero{
     background-color: var(--white);
