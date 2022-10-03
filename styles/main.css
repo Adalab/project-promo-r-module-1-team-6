@@ -117,8 +117,8 @@
     background-image: url(../images/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea.jpg);
     background-position:center;
     background-size: cover;
+    top:0px;
     height: 350px;
-    width: 100vw;
     text-align: center; 
 }
 .Caja-hero{
@@ -204,6 +204,10 @@
 }
   /* FOOTER*/
 
+  .linea{
+    margin-bottom: 5px;
+  }
+
   .footer{
     text-align: center;
  
@@ -218,7 +222,7 @@
     color: var(--cool-grey);
     position: relative;
     margin-bottom: 15px;
-    margin-top: 5px; 
+    margin-top: 30px; 
     text-align: center;
     font-family: "Open sans";
     font-weight: normal;
@@ -254,4 +258,8 @@
    width:105.9px ;
    margin-bottom: 10px;
    
+  }
+
+  #Equipo , #Quienes-somos {
+    scroll-margin-top: 120px; 
   }
