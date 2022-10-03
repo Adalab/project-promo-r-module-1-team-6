@@ -7,6 +7,8 @@
 }
 .header{
     line-height: 20px;
+    position: absolute;
+    width: 100%;
 }
 .h1{
   width: 100%;
@@ -73,20 +75,25 @@
 }
 
 /* Fortalezas y debilidades*/
+
 .strengths-weaknesses{
     background: var(--cool-grey);
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    font-family: 'Open-sans';
+    width: 100%;
+    line-height: 35px;
 }
 .caracteristicas{
     color: var(--blue-green);
     font-size: 22px;
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
     
-   
-    
+         
 }
 .parrafo{
     text-align: center;
@@ -106,8 +113,8 @@
     background-color: var(--white);
     display: inline-block;
     text-align: center;
-    margin-top: 175px;
-    padding:10px 10px 20px 10px ;
+    margin-top: 156px;
+    padding:10px 10px 10px 10px ;
     
     
  
@@ -120,7 +127,15 @@
     font-weight:bold ;
     line-height: 1.1;
     font-family: "Open-sans";
-        
+    font-weight: 600;
+    
+    
+    
+    
+    
+    
+    
+     
     
   }
 
@@ -193,23 +208,33 @@
     margin-bottom: 15px;
     margin-top: 5px; 
     text-align: center;
+    font-family: "Open sans";
+    font-weight: normal;
+    gap: 5px;
    
     
   }
 
-  .enlaces-final{
+  .enlaces-final:hover{
     color: #54585a;
     margin: 5px;
     
   }
-  
+
+  .enlace1 ,.enlace2 , .enlace3 :active:link:visited:hover{
+    color:#54585a
+  }
+  .enlace3:visited{
+    color:#54585a
+  }
   .enlace1 ,.enlace2 , .enlace3 {
     display: inline-block;
     text-decoration: none;
     font-size: 14px;
     margin-bottom: 5px;
     margin-top: 5px;
-    
+    font-family:"Open sans";
+    font-weight: 600;
   }
 
   .logo{
