@@ -12,7 +12,8 @@
 }
 .header{
     line-height: 20px;
-    position: absolute;
+    position: fixed;
+    z-index: 99;
     width: 100%;
 }
 .h1{
@@ -110,7 +111,7 @@
     background-image: url(../images/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea.jpg);
     background-position:center;
     background-size: cover;
-    height: 200px;
+    height: 350px;
     width: 100vw;
     text-align: center; 
 }
@@ -118,7 +119,7 @@
     background-color: var(--white);
     display: inline-block;
     text-align: center;
-    margin-top: 156px;
+    margin-top: 31gi0px;
     padding:10px 10px 10px 10px ;
     
     
