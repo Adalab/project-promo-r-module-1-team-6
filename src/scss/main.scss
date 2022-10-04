@@ -70,6 +70,10 @@ table {
     --cool-grey: #b8b8b9;
     --gun-metal: #54585a;
 }
+.h1, .enlace-nav, .equipo, .quienes-somos, .enlace1, .enlace2, .enlace3 {
+    text-transform: uppercase;
+}
+
 .enlace-nav{
     text-decoration: none;
     box-shadow: none;
@@ -265,6 +269,11 @@ table {
 }
 .fa-solid, .fa-brands, .fa-regular {
     color: var(--blue-green);
+}
+.icon-dot::after {
+    content: '·';
+    color: var(--blue-green);
+    padding-left: 7px;
 }
   /* FOOTER*/
 
