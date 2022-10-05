@@ -1,4 +1,3 @@
-/*
 @import 'core/variables';
 @import 'core/reset';
 @import 'components/code';
@@ -7,8 +6,6 @@
 @import 'layout/header';
 @import 'layout/footer';
 @import 'pages/index';
-*/
-
 /* HOJA DE RESET*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -62,6 +59,7 @@ table {
 
 /* FIN DE LA HOJA DE RESET*/
 
+
 :root {
     --blue-green: #099d8d;
     --aqua: #14d9c4;
@@ -70,6 +68,10 @@ table {
     --cool-grey: #b8b8b9;
     --gun-metal: #54585a;
 }
+.h1, .enlace-nav, .equipo, .quienes-somos, .enlace1, .enlace2, .enlace3 {
+    text-transform: uppercase;
+}
+
 .enlace-nav{
     text-decoration: none;
     box-shadow: none;
@@ -83,7 +85,6 @@ table {
 }
 .h1{
   width: 100%;
-  height: 60px;
   text-align: center;
   opacity: 0.95;
   background-color: var(--blue-green);
@@ -122,13 +123,13 @@ table {
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 24px;
-    line-height: 1.88;
+    line-height: 24px;
     text-align: center;
     color: var(--aqua);
     margin-top: 60px;
 }
 .team p {
-    font-family: 'Open-sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     text-align: center;
     line-height: 24px;
@@ -153,7 +154,7 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Open-sans';
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     line-height: 35px;
     padding-top: 30px;
@@ -202,7 +203,7 @@ table {
     font-size: 20px;
     font-weight:bold ;
     line-height: 1.1;
-    font-family: "Open-sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     
     
@@ -233,6 +234,7 @@ table {
     text-align: center;
     line-height: 1.5;
     color: #54585a;
+    font-family: 'Open Sans', sans-serif;
 }
 .whoiswho h2 {
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
@@ -250,7 +252,7 @@ table {
     border-radius: 4px;
 }
 .whoiswho h4 {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 2.25;
     text-align: center;
@@ -265,6 +267,11 @@ table {
 }
 .fa-solid, .fa-brands, .fa-regular {
     color: var(--blue-green);
+}
+.icon-dot::after {
+    content: '·';
+    color: var(--blue-green);
+    padding-left: 7px;
 }
   /* FOOTER*/
 
@@ -288,7 +295,7 @@ table {
     margin-bottom: 15px;
     margin-top: 30px; 
     text-align: center;
-    font-family: "Open sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     gap: 5px;
    
@@ -313,7 +320,7 @@ table {
     font-size: 14px;
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family:"Open sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
   }
 
@@ -328,7 +335,7 @@ table {
     scroll-margin-top: 120px; 
   }
 
-  @media screen and (min-width 768px){
+  @media screen and (min-width = 768px){
     .strengths-weaknesses{
         display: flex;
         flex-direction: row;
@@ -336,3 +343,4 @@ table {
     }
     
 }
+  /* @media 480px*/

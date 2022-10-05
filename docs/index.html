@@ -1,68 +1,138 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap of Faith</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2eec946f56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" type="image/png" href="./assets/images/png-clipart-jumping-computer-icons-person-falling-sport-hand-thumbnail.png">
+</head>
+<body>
+    <header class="header">
+        <h1 class="h1">Leap of faith</h1>
+        <nav class="nav-header">
+            <ul class="ul-nav-cabecera">
+                <li class="link"><a class="enlace-nav" href="./index.html#Equipo">Equipo</a></li>
+                <li class="link"><a class="enlace-nav" href="./index.html#Quienes-somos">Quiénes somos</a></li>
+                <li class="link"><a class="enlace-nav" href="./contact.html" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="Caja-hero">
+            <p class="texto-hero">What we are. What we want to be. Make the jump. </p>
+        </div>
+        </section>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+        <section  class="team">
+            <h2 id="Equipo" class="equipo">Equipo</h2>
+            <p>Cuatro coders apasionadas con lo que hacen y con infinitas ganas de aprender y mejorar con cada git push. Venimos de ramas laborales muy diversas pero nos unen las ganas de avanzar y evolucionar, aunque eso suponga dar un salto al vacío para ver qué pasa.</p>
+            <p>Estamos seguras de que el paracaídas de la programación web nos llevará a sitios maravillosos que nunca imaginamos antes de saltar. Si quieres conocernos un poco más, sigue leyendo <i class="fa-regular fa-face-smile-wink"></i></p>
+            <div class="white-square"></div>
+        </section>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <section class="strengths-weaknesses">
+            <article>
+                <h3 class="caracteristicas">Fortalezas</h3>
+                <p class="parrafo"> 
+            
+                    Somos cuatro mujeres valientes, que no tenemos miedo a los cambios.
+                    Decidadas, apostamos por aquello que nos hace feliz.
+                    Con gran flexibilidad mental que nos facilita gran adaptación al cambio y al trabajo en equipo.
+                    Y por supuesto, con muchísimas ganas de aprender.
+                    </p>
+            </article>
+            <article>
+                <h3 class="caracteristicas">Debilidades</h3>
+                <p class="parrafo">Somos cuatro profesionales que vienen de campos muy distintos por lo que nuestra debilidad principal sería la falta de experiencia laboral relacionada con la programación web. Sin embargo, tenemos que decir también que estamos convencidas de que las ganas y la motivación que tenemos podrá suplir esas carencias que vienen de la falta de experiencia. </p>
+            </article>
+        </section>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        <section  class="whoiswho">
+            <h2 id="Quienes-somos" class="quienes-somos">Quiénes somos</h2>
+            <article class="complete-person">
+                <img class="img-person" src="./assets/images/cabra.jpeg" alt="">
+                <div>
+                <h4>Laura García Cuello</h4>
+                <p class="parrafo">Entusiasta por el cambio y en la búsqueda de aquello que me haga feliz. Vengo de la rama sanitatia y voy directa a la rama de la programación. Descubriendo este apasionante mundo code que se está convirtiendo en mi nueva vocación. Ilusionada con este nuevo comienzo.</p>
+                <nav>
+                    <ul class="social-media-list">
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-github-alt"></i></a></li>
+                        <li> <a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            </article>
+            <article class="complete-person">
+                <img class="img-person" src="./assets/images/cabra.jpeg" alt="">
+                <div>
+                <h4>Bella García Villegas</h4>
+                <p>Madre de 2 niñas que se ha ido reinventando a sí misma. Cuando con 37 años sabes que estas en un sector y en una empresa que no te puede ofrecer más, tienes 2 opciones: disfrutar la estabilidad que eso te proporciona o decidir que ese no es tu camino y buscar otro que te ofrezca un camino ilimitado de conocimiento y a su vez reconocimiento laboral. Es el momento del cambio, disfrutemos del camino.</p>
+                <nav>
+                    <ul class="social-media-list">
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-github-alt"></i></a></li>
+                        <li> <a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            </article>
+            <article class="complete-person">
+                <img class="img-person" src="./assets/images/cabra.jpeg" alt="">
+                <div>
+                <h4>Mónica Hidalgo Martín</h4>
+                <p>Culo inquieto por naturaleza con la constante necesidad de cambio y evolución. Esto me ha llevado a vivir varios años en diferentes países y dedicarme laboralmente a varias disciplinas. Desde locutora de radio hasta profesora de inglés. Como ves mi rama main tiene bastantes branches. Me atrae cualquier cosa que tiene que ver con la creatividad y la lógica. Ahora la vida me ha llevado a estudiar programación web y se ha convertido en mi nueva pasión. ¿Las otras? La montaña, los animales y las fiestas de cumpleaños con disfraces.</p>
+                <nav>
+                    <ul class="social-media-list">
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="icon-dot"> <a href="https://www.linkedin.com/in/monica-hidalgo-martin-6654a684/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-github-alt"></i></a></li>
+                        <li> <a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            </article>
+            <article class="complete-person">
+                <img class="img-person" src="./assets/images/cabra.jpeg" alt="">
+                <div>
+                <h4>Bárbara García Bolaños</h4>
+                <p>Curiosa e inquieta. A lo largo de mi vida he tocado muchos palos desde ciencias de la antigüedad hasta realización de proyectos. Puedo transformarte en un zombie viviente ,gracias a la magia del maquillaje, o dirigirte un documental de tu vida. Ahora estoy luchando para poder programarte tu próxima página web. ¿ Y de mi que puedo contarte? Estoy en contra del especismo y de todas las discriminaciones.</p>
+                <nav>
+                    <ul class="social-media-list">
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="icon-dot"> <a href=""><i class="fa-brands fa-github-alt"></i></a></li>
+                        <li> <a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            </article>
 
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+        </section>
+    </main>
+    <hr class="linea">
+    <footer class="footer">
+        <div class="caja">
+            <p class="nombre-final">Leap of faith © 2022</p>
+            <nav>
+            <ul class="enlaces-final">
+                <li><a class="enlace1" href="./index.html#Equipo">Equipo</a></li>
+                <li><a class="enlace2" href="./index.html#Quienes-somos">Quiénes somos</a></li>
+                <li><a class="enlace3" href="./contact.html" target="_blank">Contacto</a></li>
+            </ul>
+            </nav>
+            <img class="logo" src="./assets/images/logo-adalab.png" alt="Logo Adalab">
+        </div>
+    </footer>
+    
+</body>
 </html>
