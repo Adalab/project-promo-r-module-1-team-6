@@ -1,11 +1,11 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
 /* HOJA DE RESET*/
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -13,334 +13,425 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* FIN DE LA HOJA DE RESET*/
 
-
 :root {
-    --blue-green: #099d8d;
-    --aqua: #14d9c4;
-    --white: #ffffff;
-    --black: #000000;
-    --cool-grey: #b8b8b9;
-    --gun-metal: #54585a;
-}
-.h1, .enlace-nav, .equipo, .quienes-somos, .enlace1, .enlace2, .enlace3 {
-    text-transform: uppercase;
+  --blue-green: #099d8d;
+  --aqua: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --cool-grey: #b8b8b9;
+  --gun-metal: #54585a;
 }
 
-.enlace-nav{
-    text-decoration: none;
-    box-shadow: none;
-    color: var(--white);
+.h1,
+.enlace-nav,
+.equipo,
+.quienes-somos,
+.enlace1,
+.enlace2,
+.enlace3 {
+  text-transform: uppercase;
 }
-.header{
-    line-height: 20px;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
+
+.enlace-nav {
+  text-decoration: none;
+  box-shadow: none;
+  color: var(--white);
 }
-.h1{
+
+.header {
+  line-height: 20px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.h1 {
   width: 100%;
   text-align: center;
   opacity: 0.95;
   background-color: var(--blue-green);
   color: var(--white);
-  font-family: 'Rubik';
+  font-family: "Rubik";
   line-height: 60px;
   font-size: 20px;
 }
-.nav-header{
-    width: 100%;
-    height: 45px;
-    opacity: 0.9;
-    background-color: var(--aqua);
-    color: var(--white);
-    font-size: 16px;
-    font-family: 'Rubik';
-    line-height: 20px;
+
+.nav-header {
+  width: 100%;
+  height: 45px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+  color: var(--white);
+  font-size: 16px;
+  font-family: "Rubik";
+  line-height: 20px;
 }
-.ul-nav-cabecera{
-    display: flex;
-    color: var(--white);
-    flex-direction: row; 
-    gap: 10px;
-    justify-content: space-around;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 45px;
+
+.ul-nav-cabecera {
+  display: flex;
+  color: var(--white);
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 45px;
 }
+
 .team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.equipo{
-    padding: 30px;
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: center;
-    color: var(--aqua);
-    margin-top: 60px;
+
+.equipo {
+  padding: 30px;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--aqua);
+  margin-top: 60px;
 }
+
 .team p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    text-align: center;
-    line-height: 24px;
-    color: #54585a;
-    margin-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: #54585a;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .white-square {
-    width: 30px;
-    height: 30px;
-    transform: translate(0, 50%) rotate(45deg);
-    z-index: 1;
-    background-color: var(--white);
+  width: 30px;
+  height: 30px;
+  transform: translate(0, 50%) rotate(45deg);
+  z-index: 1;
+  background-color: var(--white);
 }
 
 /* Fortalezas y debilidades*/
 
-.strengths-weaknesses{
-    background: rgba(84, 88, 90, 0.2);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    line-height: 35px;
-    padding-top: 30px;
-    padding-bottom: 45px;
-    padding-left: 15px;
-    padding-right: 15px;
+.strengths-weaknesses {
+  background: rgba(84, 88, 90, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  line-height: 35px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.caracteristicas{
-    color: var(--blue-green);
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 30px;
-    
-         
+
+.caracteristicas {
+  color: var(--blue-green);
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
 }
-.parrafo{
-    text-align: center;
-    color: var(--gun-metal);
-    font-size: 16px;
-    line-height: 24px;  
+
+.parrafo {
+  text-align: center;
+  color: var(--gun-metal);
+  font-size: 16px;
+  line-height: 24px;
 }
+
 /* HERO */
 .hero {
-    background-image: url(../images/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea.jpg);
-    background-position:center;
-    background-size: cover;
-    top:0px;
-    height: 350px;
-    text-align: center; 
+  background-image: url(../images/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea.jpg);
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  height: 350px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.Caja-hero{
-    background-color: var(--white);
-    display: inline-block;
-    text-align: center;
-    margin-top: 310px;
-    padding:10px 10px 10px 10px ;
-    
-    
- 
-    
-}
-.texto-hero{
-    text-align: center;
-    width: 280px;
-    font-size: 20px;
-    font-weight:bold ;
-    line-height: 1.1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    
-    
-    
-    
-    
-    
-    
-     
-    
-  }
 
- /*Trabajo de Monica a partir de aqui*/
+.texto-hero {
+  text-align: center;
+  width: 280px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: var(--white);
+  text-align: center;
+  margin-top: 350px;
+  padding: 10px 10px 10px 10px;
+}
+
+/*Trabajo de Monica a partir de aqui*/
 
 .whoiswho {
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
 }
+
 .complete-person {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
 }
+
 .complete-person p {
-    text-align: center;
-    line-height: 1.5;
-    color: #54585a;
-    font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
 }
+
 .whoiswho h2 {
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 1.88;
-    text-align: center;
-    color: var(--blue-green);
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.88;
+  text-align: center;
+  color: var(--blue-green);
 }
+
 .img-person {
-    object-fit: cover;
-    width: 180px;
-    height: 180px;
-    border: 5px solid var(--cool-grey);
-    border-radius: 4px;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--cool-grey);
+  border-radius: 4px;
 }
+
 .whoiswho h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 2.25;
-    text-align: center;
-    margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 2.25;
+  text-align: center;
+  margin-top: 15px;
 }
+
 .social-media-list {
-    display: flex;
-    padding: 30px;
-    gap: 10px;
-    justify-content: center;
-    color: #54585a;
+  display: flex;
+  padding: 30px;
+  gap: 10px;
+  justify-content: center;
+  color: #54585a;
 }
-.fa-solid, .fa-brands, .fa-regular {
-    color: var(--blue-green);
+
+.fa-solid,
+.fa-brands,
+.fa-regular {
+  color: var(--blue-green);
 }
+
 .icon-dot::after {
-    content: '·';
-    color: var(--blue-green);
-    padding-left: 7px;
+  content: "·";
+  color: var(--blue-green);
+  padding-left: 7px;
 }
-  /* FOOTER*/
 
-  .linea{
-    margin-bottom: 5px;
-  }
+/* FOOTER*/
 
-  .footer{
-    text-align: center;
- 
-  }
-
- .caja{
-    position: relative;
-    bottom:0px;
-
- }
-  .nombre-final{
-    color: var(--cool-grey);
-    position: relative;
-    margin-bottom: 15px;
-    margin-top: 30px; 
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    gap: 5px;
-   
-    
-  }
-
-  .enlaces-final:hover{
-    color: #54585a;
-    margin: 5px;
-    
-  }
-
-  .enlace1 ,.enlace2 , .enlace3 :active:link:visited:hover{
-    color:#54585a
-  }
-  .enlace3:visited{
-    color:#54585a
-  }
-  .enlace1 ,.enlace2 , .enlace3 {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-  }
-
-  .logo{
-   margin-top:10px;
-   width:105.9px ;
-   margin-bottom: 10px;
-   
-  }
-
-  #Equipo , #Quienes-somos {
-    scroll-margin-top: 120px; 
-  }
-
-  @media screen and (min-width :768px){
-    .strengths-weaknesses{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    
+.linea {
+  margin-bottom: 5px;
 }
-  /* @media 480px*/
+
+.footer {
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nombre-final {
+  color: var(--cool-grey);
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  gap: 5px;
+  font-size: 14px;
+}
+.enlace1,
+.enlace2,
+.enlace3 {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: none;
+  color: var(--gun-metal);
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 45px;
+  width: 115.9px;
+  margin-bottom: 45px;
+}
+
+#Equipo,
+#Quienes-somos {
+  scroll-margin-top: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .strengths-weaknesses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* @media 480px*/
