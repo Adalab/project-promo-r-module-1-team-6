@@ -9,7 +9,7 @@
   font-family: "Open Sans", sans-serif;
   width: 100%;
   line-height: 35px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 45px;
   padding-left: 15px;
   padding-right: 15px;
@@ -28,4 +28,16 @@
   color: var(--gun-metal);
   font-size: 16px;
   line-height: 24px;
+}
+@media screen and (min-width: 768px) {
+  .strengths-weaknesses {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .strengths,
+  .weaknesses {
+    width: 40%;
+  }
 }
