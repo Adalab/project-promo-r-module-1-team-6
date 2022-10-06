@@ -19,7 +19,8 @@
   color: var(--white);
   font-family: "Rubik";
   line-height: 60px;
-  font-size: 20px;
+  font-size: 16px;
+  height: 60px;
 }
 
 .nav-header {
@@ -28,7 +29,7 @@
   opacity: 0.9;
   background-color: var(--aqua);
   color: var(--white);
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Rubik";
   line-height: 20px;
 }
@@ -42,4 +43,26 @@
   padding-left: 10px;
   padding-right: 10px;
   line-height: 45px;
+}
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    height: 60px;
+  }
+  .nav-header {
+    width: 100%;
+    text-align: left;
+    opacity: 0.95;
+    background-color: var(--blue-green);
+    color: var(--white);
+    height: 60px;
+    padding-right: 45px;
+  }
+  .h1 {
+    text-align: left;
+    padding-left: 45px;
+  }
+  .ul-nav-cabecera {
+    line-height: 60px;
+  }
 }
