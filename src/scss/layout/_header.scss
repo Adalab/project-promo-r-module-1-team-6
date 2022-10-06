@@ -3,7 +3,6 @@
   box-shadow: none;
   color: var(--white);
 }
-
 .header {
   line-height: 20px;
   position: fixed;
@@ -64,5 +63,15 @@
   }
   .ul-nav-cabecera {
     line-height: 60px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .h1 {
+    padding-left: 142px;
+  }
+  .nav-header {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
   }
 }
