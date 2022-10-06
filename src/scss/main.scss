@@ -9,8 +9,9 @@
 @import "layout/strengths_weaknesses";
 @import "layout/who_is_who";
 @import "layout/footer";
-/*@import "pages/index";*/
-
+@import "layout/contacto";
+/*@import "pages/index";
+*/
 @media screen and (min-width: 768px) {
   .strengths-weaknesses {
     display: flex;

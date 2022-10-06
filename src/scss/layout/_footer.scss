@@ -11,6 +11,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .nombre-final {
@@ -43,4 +45,52 @@
   height: 45px;
   width: 115.9px;
   margin-bottom: 45px;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+  }
+  .enlaces-final {
+    text-align: right;
+    height: 90px;
+    width: 324px;
+    line-height: 2.14;
+  }
+  .nav {
+    position: relative;
+    order: 1;
+    box-sizing: border-box;
+    margin-right: 45px;
+    bottom: 24px;
+  }
+  .logo {
+    position: absolute;
+    top: 65px;
+    left: 35px;
+  }
+  .nombre-final {
+    bottom: 30px;
+    margin-left: 45px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .footer {
+    height: 161px;
+  }
+  .nombre-final {
+    margin-left: 138px;
+  }
+  .logo {
+    margin-left: 92px;
+  }
+
+  .nav {
+    margin-right: 138px;
+  }
 }
