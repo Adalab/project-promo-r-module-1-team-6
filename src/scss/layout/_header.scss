@@ -1,5 +1,45 @@
-.page__header {
+.enlace-nav {
+  text-decoration: none;
+  box-shadow: none;
+  color: var(--white);
+}
+
+.header {
+  line-height: 20px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.h1 {
+  width: 100%;
+  text-align: center;
+  opacity: 0.95;
+  background-color: var(--blue-green);
+  color: var(--white);
+  font-family: "Rubik";
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.nav-header {
+  width: 100%;
+  height: 45px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+  color: var(--white);
+  font-size: 16px;
+  font-family: "Rubik";
+  line-height: 20px;
+}
+
+.ul-nav-cabecera {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  color: var(--white);
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 45px;
 }

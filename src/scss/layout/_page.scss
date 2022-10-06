@@ -1,7 +1,23 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
+:root {
+  --blue-green: #099d8d;
+  --aqua: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --cool-grey: #b8b8b9;
+  --gun-metal: #54585a;
+}
+
+.h1,
+.enlace-nav,
+.equipo,
+.quienes-somos,
+.enlace1,
+.enlace2,
+.enlace3 {
+  text-transform: uppercase;
+}
+
+#Equipo,
+#Quienes-somos {
+  scroll-margin-top: 120px;
 }

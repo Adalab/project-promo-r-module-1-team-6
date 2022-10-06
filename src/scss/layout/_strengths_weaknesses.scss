@@ -1,0 +1,31 @@
+/* Fortalezas y debilidades*/
+
+.strengths-weaknesses {
+  background: rgba(84, 88, 90, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  line-height: 35px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.caracteristicas {
+  color: var(--blue-green);
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.parrafo {
+  text-align: center;
+  color: var(--gun-metal);
+  font-size: 16px;
+  line-height: 24px;
+}

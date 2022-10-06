@@ -1,0 +1,67 @@
+/* who is who */
+
+.whoiswho {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.complete-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.complete-person p {
+  text-align: center;
+  line-height: 1.5;
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
+}
+
+.whoiswho h2 {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.88;
+  text-align: center;
+  color: var(--blue-green);
+}
+
+.img-person {
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--cool-grey);
+  border-radius: 4px;
+}
+
+.whoiswho h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 2.25;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-media-list {
+  display: flex;
+  padding: 30px;
+  gap: 10px;
+  justify-content: center;
+  color: #54585a;
+}
+
+.fa-solid,
+.fa-brands,
+.fa-regular {
+  color: var(--blue-green);
+}
+
+.icon-dot::after {
+  content: "·";
+  color: var(--blue-green);
+  padding-left: 7px;
+}

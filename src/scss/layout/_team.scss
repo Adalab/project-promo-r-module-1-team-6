@@ -1,0 +1,35 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.equipo {
+  padding: 30px;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--aqua);
+  margin-top: 60px;
+}
+
+.team p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: #54585a;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.white-square {
+  width: 30px;
+  height: 30px;
+  transform: translate(0, 50%) rotate(45deg);
+  z-index: 1;
+  background-color: var(--white);
+}
