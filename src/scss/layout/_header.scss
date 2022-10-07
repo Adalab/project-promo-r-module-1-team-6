@@ -63,6 +63,10 @@
   }
   .ul-nav-cabecera {
     line-height: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    justify-content: space-between;
   }
 }
 @media all and (min-width: 1200px) {
@@ -70,8 +74,6 @@
     padding-left: 142px;
   }
   .nav-header {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
+    padding-right: 142px;
   }
 }
