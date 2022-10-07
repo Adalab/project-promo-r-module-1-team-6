@@ -74,6 +74,8 @@
     padding-left: 142px;
   }
   .nav-header {
-    padding-right: 142px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
   }
 }
