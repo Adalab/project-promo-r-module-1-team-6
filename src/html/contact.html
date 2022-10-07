@@ -12,14 +12,54 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="icon" type="image/png"
         href="./assets/images/png-clipart-jumping-computer-icons-person-falling-sport-hand-thumbnail.png">
-    <title>Leap of faith-Formulario</title>
+    <title>Contacto</title>
 </head>
 
 <body>
     <main>
         <include src="./partials/header.html"></include>
-        <include src="./partials/hero.html"></include>
-        <div class="provisional"></div>
+
+        <section class="hero"></section>
+        <div class="contact__main">
+            <div class="contact__page">
+                <h1 class="contact__title">Contacto</h1>
+
+                <p class="contact__text">Si quieres ponerte en contacto con cualquiera de nosotras no dudes en mandarnos
+                    un
+                    mensaje a través de este formulario. Nos pondremos en contacto contigo tan pronto como lo leamos.
+                </p>
+
+                <small class="contact__small">Todos los campos marcados con <span class="contact__asterisk">*</span> son
+                    obligatorios.</small>
+
+                <form class="contact__form" action="/signup" method="post">
+
+                    <label class="contact__form--label" for="firstName">Nombre completo <span
+                            class="contact__asterisk">*</span></label>
+                    <input class="contact__form--input" placeholder="Nombre..." id="firstName" type="text"
+                        name="firstName" required />
+
+                    <div class="contact__email-phone">
+
+                        <label class="contact__form--label label__email" for="emailAddress">Email <span
+                                class="contact__asterisk">*</span></label>
+                        <input class="contact__form--input" placeholder="nombre.apellidos@mail.com" type="email"
+                            id="emailAddress" name="emailAddress" required />
+
+                        <label class="contact__form--label label__phone" for="telephone">Teléfono</label>
+                        <input class="contact__form--input" placeholder="Ej: 123456789" type="tel" id="telephone"
+                            name="telephone" />
+                    </div>
+
+                    <label class="contact__form--label" for="message">Mensaje <span
+                            class="contact__asterisk">*</span></label>
+                    <textarea placeholder="¿Qué necesitas?" name="message" rows="8" cols="80" required></textarea>
+
+                    <input class="contact__form--submit" type="submit" value="Enviar" />
+                </form>
+            </div>
+        </div>
+
     </main>
     <hr>
     <include src="./partials/footer.html"></include>
