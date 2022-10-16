@@ -126,3 +126,15 @@
     height: 278px;
   }
 }
+@media all and (min-width: 1800px) {
+  .person-left {
+    padding-left: 10%;
+  }
+  .person-right {
+    padding-right: 10%;
+  }
+  .img-person {
+    width: 400px;
+    height: 400px;
+  }
+}
