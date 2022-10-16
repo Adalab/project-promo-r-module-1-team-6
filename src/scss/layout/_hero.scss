@@ -1,5 +1,6 @@
 /* HERO */
 .hero {
+  border: 5px solid red;
   background-image: url(../images/jump.png);
   background-position: center;
   background-size: cover;
@@ -12,6 +13,7 @@
 }
 
 .texto-hero {
+  border: 5px solid red;
   text-align: center;
   width: 280px;
   font-size: 20px;
@@ -51,5 +53,10 @@
   }
   .hero {
     height: 550px;
+  }
+}
+@media all and (min-width: 1600px) {
+  .hero {
+    height: 800px;
   }
 }
