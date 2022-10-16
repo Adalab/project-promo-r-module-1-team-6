@@ -3,13 +3,14 @@
   border: 5px solid red;
   background-image: url(../images/jump.png);
   background-position: center;
-  background-size: cover;
+  background-size: 100vh;
   top: 0px;
   height: 421px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .texto-hero {
@@ -40,6 +41,7 @@
   .hero {
     justify-content: left;
     align-items: flex-end;
+    background-size: cover;
   }
 }
 
@@ -53,6 +55,7 @@
   }
   .hero {
     height: 550px;
+    background-size: cover;
   }
 }
 @media all and (min-width: 1600px) {
