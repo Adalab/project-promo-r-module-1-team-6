@@ -58,8 +58,10 @@
 .fa-brands,
 .fa-regular {
   color: var(--blue-green);
+  &:hover {
+    color: gray;
+  }
 }
-
 .icon-dot::after {
   content: "·";
   color: var(--blue-green);
