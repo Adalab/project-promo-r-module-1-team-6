@@ -8,11 +8,16 @@
   justify-content: center;
   font-family: "Open Sans", sans-serif;
   width: 100%;
+}
+.strengths-weaknesses-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1170px;
   line-height: 35px;
-  padding-top: 20px;
-  padding-bottom: 45px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 20px 15px 45px 15px;
 }
 
 .caracteristicas {
@@ -21,6 +26,7 @@
   text-align: center;
   font-weight: bold;
   padding-top: 30px;
+  max-width: 450px;
 }
 
 .parrafo {
@@ -28,9 +34,15 @@
   color: var(--gun-metal);
   font-size: 16px;
   line-height: 24px;
+  max-width: 450px;
 }
 @media screen and (min-width: 768px) {
   .strengths-weaknesses {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .strengths-weaknesses-container {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
